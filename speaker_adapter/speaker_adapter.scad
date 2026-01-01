@@ -8,20 +8,21 @@
 // https://www.daytonaudio.com/images/resources/295-305-dayton-audio-dc160-8-specifications-46146.pdf
 
 // Speaker specs
-speaker_cylinder_r_min = 144.8 / 2;
+// https://www.daytonaudio.com/images/resources/295-305-dayton-audio-dc160-8-specifications-46146.pdf
+speaker_cylinder_r_min = 144.7 / 2;
 speaker_cylinder_w = 10;
 speaker_cylinder_holes_r_center = 156.5/2;
-speaker_cylinder_holes_r = 5/2;
-speaker_holes_n = 6;
+speaker_cylinder_holes_r = 3;
+speaker_holes_n = 4;
 
 // Speaker holder specs
-box_cylinder_r = 203.2/2;
-box_cylinder_r_min = (203.2-20)/2;
+box_cylinder_r = 203/2;
+box_cylinder_r_min = (176)/2;
 
 box_cylinder_w = 5;
-box_cylinder_holes_r_center = (203.2 - 10)/2;
-box_cylinder_holes_r = 5/2;
-box_holes_n = 6;
+box_cylinder_holes_r_center = 194/2;
+box_cylinder_holes_r = 3;
+box_holes_n = 8;
 
 
 
@@ -56,7 +57,7 @@ union() {
         r_out = box_cylinder_r,
         r_holes_center = box_cylinder_holes_r_center, 
         r_holes = box_cylinder_holes_r,
-        holes_n = speaker_holes_n
+        holes_n = box_holes_n
         );
 
 }
