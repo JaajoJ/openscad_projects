@@ -10,7 +10,7 @@
 // Speaker specs
 // https://www.daytonaudio.com/images/resources/295-305-dayton-audio-dc160-8-specifications-46146.pdf
 speaker_cylinder_r_min = 144.7 / 2;
-speaker_cylinder_w = 10;
+speaker_cylinder_w = 15;
 speaker_cylinder_holes_r_center = 156.5/2;
 speaker_cylinder_holes_r = 3;
 speaker_holes_n = 4;
@@ -19,7 +19,7 @@ speaker_holes_n = 4;
 box_cylinder_r = 203/2;
 box_cylinder_r_min = (176)/2;
 
-box_cylinder_w = 5;
+box_cylinder_w = 10;
 box_cylinder_holes_r_center = 194/2;
 box_cylinder_holes_r = 3;
 box_holes_n = 8;
